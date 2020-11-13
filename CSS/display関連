@@ -1,0 +1,37 @@
+display
+  block        :要素をブロックレベル要素にする
+  inline       :要素をインライン要素にする
+  inline-block :インライン要素に対して高さや幅を設定できるようにする
+  list-item    :要素をリストアイテムのようにする(<li>要素の初期値は、このlist-itemが設定されている)
+  none         :要素を非表示にする
+visibility
+  hidden       :要素は非表示になるが、要素が占有していた領域はそのまま残る 
+  
+  
+display
+  table        :要素を<table>タグのようにレンダリングする
+  table-cell   :要素を<td>タグのようにレンダリングする 
+vertical-align :縦方向の位置調整
+   middle
+word-wrap      :長い単語の途中で改行を許す
+   break-word
+   
+ 
+display
+  flex         :横並びにする
+flex-wrap
+  wrap         :所定の幅で折り返す
+flex-direction
+  row-reverse  :逆順にする
+justify-content
+  center       :左右中央にする
+align-items
+  center       :上下中央にする
+align-content
+  flex-start   :上部に集まる
+order
+  -1(数字)    　:負の値を設定することで先頭に配置することができる
+flex-grow
+  1(数字)    　 :Flexアイテムが占有する幅を調整する
+align-self
+  flex-end     :下に配置

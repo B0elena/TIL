@@ -47,3 +47,56 @@ array.slice(1, 3)
   配列の一部を切り出す
 array.sort();
   配列をソートする
+
+
+array.forEach(v, idx) => {
+  console.log(idx + ":" +v);
+});
+  配列の各要素に対して個別に関数を実行するにはforEachを使用
+  
+var array = [1, 2, 3, 4, 5, 6];
+array.filter(v => {
+  return v % 2 ===0;
+});
+  要素を条件で絞る
+  配列の各要素に対して条件で絞るにはfilterを使用
+
+var array = [1, 2, 3, 4, 5, 6];
+array.map(v => {
+  return v + 5;
+});
+  要素を変換する
+  各要素に5を足した 新しい配列を生成
+  
+var array = [1, 2, 3, 4, 5, 6];
+array.find(v => {
+  return v % 2 ===0;
+});
+  条件に合う最初の要素を検索し、その要素を返す]
+  
+var array = [1, 2, 3, 4, 5, 6];
+array.findIndex(v => {
+  return v % 2 ===0;
+});
+  条件に合う最初の要素を検索し、そのインデックスを返す
+  最初の偶数を検索し、その添字を返す
+  
+array.every(v => {
+  return v % 2 ===0;
+});
+  すべての要素が条件を満たすかを検証する
+  
+array.some(v => {
+  return v % 2 ===0;
+});
+  いずれかの要素が条件を満たすかを検証する
+  
+array.reduce((a, b) => {
+  return a +b;
+});
+  要素に関数を適用しながらまとめる
+  
+array.reduce((a, b) => {
+  // なにかの処理
+}, 初期値);
+  要素に関数を適用しながらまとめる

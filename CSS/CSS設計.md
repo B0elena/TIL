@@ -36,7 +36,15 @@ OOCSSのコンセプトを元に作られた設計思考
 - 場所に依存するパーツが多すぎるサイトでは良いところをいかせられない
 
 
-### 3  BEM（Element Modifier）
+## 3  BEM（Element Modifier）
 
+### 使用法
+要素をBlock, Element, Modifierの3つに分け、命名規則を元にClass名を記述する<br>
+「Block-Element__Modifier」のように「-」や「＿＿」で区切って記述する
+### Block
+Blockはどこでも置く事ができ、Blockの中にBlockを含めることも可能
+### Element
 
-### 4  FLOCSS
+### Moifier
+
+## 4  FLOCSS

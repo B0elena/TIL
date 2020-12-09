@@ -78,3 +78,9 @@ OOCSS SMACSS BEMを元に考案された設計思考
 
 ### Sassを使う事が望ましい
 <img src="https://image.slidesharecdn.com/css17-180606135525/95/css-24-638.jpg?cb=1528293469">
+
+### メリット
+- SMACSSより保守性が高い
+
+### デメリット
+- OOCSS SMACSS BEMが分からないと使えない

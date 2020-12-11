@@ -1,9 +1,11 @@
 # CSSのtransformの使い方を理解する
-```
+```css
+.transform {
     transform: rotate();
     transform: scale();
     transform: translate();
     transform: skew();
+}
 ```
 - rotateは回転
 - scaleは拡大縮小
@@ -18,7 +20,7 @@ CSSのtransformは種類が多いため関数のコントロール次第で何�
  
 ## 1. rotateで回転
 transformプロパティに使用するrotate()は「回転の指定」ができる関数<br>
-```
+```css
 セレクタ名 {
 　transform:rotate(回転角度deg);
 }
@@ -33,7 +35,7 @@ CSSのtransformのrotate関数には次の4つの軸を加えて指定する使�
 
 rotate3d()関数を使うことでXYZ軸の変化をまとめて指定することもできる。<br>
 rotate3dの値はXYZの順番に指定し、degで回転角度を決めて変化させる使い方ができる。
-```
+```css
 .tranceform:hover {
     transform: rotate3d(30, 20, 10, 360deg);
 }
@@ -48,13 +50,13 @@ CSSでtransformのscale関数は拡大縮小ができる。<br>
 scaleZで指定する場合は親要素にperspectiveプロパティを指定して遠近感を作りを変形させる。<br>
 Z軸の変化は、遠近感を与えるtransformのプロパティや関数を組み合わせた使い方をしないと動作しない。<br>
 scale()関数はX軸、Y軸、Z軸の縮小と伸縮の値を繋げて指定する使い方もできる。
-```
+```css
 .tranceform:hover {
     transform: scaleX(1.5)scaleY(2)scaleZ(-40);
 }
 ```
 - scale3d()
-```
+```css
 .tranceform:hover {
     transform: scale3d(1, 5, 2);
 }

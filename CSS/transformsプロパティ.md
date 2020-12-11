@@ -67,21 +67,21 @@ XY軸2つの方向を繋げて指定する使い方もできる。<br>
 .tranceform:hover {
     transform: translateX(100px)translateY(-50px);
 }
-```css
-translateでXYの値をまとめて指定もできる。
 ```
+translateでXYの値をまとめて指定もできる。
+```css
 .tranceform:hover {
     transform: translate(100px, -50px);
 }
-```CSS
-translateでXYZの値を繋げて指定
 ```
+translateでXYZの値を繋げて指定
+```css
 .tranceform:hover {
     transform: translateX(100px)translateY(100px)translateZ(100px);
 }
 ```
 translateでXYZの値をまとめて指定
-```
+```css
 .tranceform:hover {
     transform: translate3d(100px, 100px, 100px);
 }

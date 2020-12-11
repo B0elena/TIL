@@ -63,17 +63,17 @@ scale()関数はX軸、Y軸、Z軸の縮小と伸縮の値を繋げて指定す�
 ## 3. translateで移動させる
 translate関数は要素に移動の処理をして変化をつけることができる。<br>
 XY軸2つの方向を繋げて指定する使い方もできる。<br>
-```css
+``` css
 .tranceform:hover {
     transform: translateX(100px)translateY(-50px);
 }
-```
+```css
 translateでXYの値をまとめて指定もできる。
 ```
 .tranceform:hover {
     transform: translate(100px, -50px);
 }
-```
+```CSS
 translateでXYZの値を繋げて指定
 ```
 .tranceform:hover {

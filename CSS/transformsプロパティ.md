@@ -123,6 +123,45 @@ transform-originの値で原点を変更する値指定にはpxや%、leftやtop
 ```
 # transformで3Dの遠近感を表現する使い方
 ## 1. perspectiveで遠近感を表現
+CSSのtransformでZ軸方向が奥行きになるが、Z軸方向の変形をしたい場合は、perspectiveを使用して遠近感を表現する。<br>
+perspectiveは「関数」と「プロパティ」の2つの使い方がある。<br>
+perspectiveを関数として指定して遠近感を表現する場合と、プロパティとして指定し遠近感を表現する場合では使い方が違う。
+
+transformのperspective関数は指定した要素のみで遠近感が表現できる。
+```
+関数の場合(指定した要素のみ)
+transform: perspective(値);
+```
+例えば、ホバーする要素にperspective(500px)と指定して値を500pxにしたとする。<br>
+そしてtranslateZ(-200px)も繋げて指定した使い方をすると、perspectiveの値の500px分の遠近感が表現されながら、translateZで奥の方向に200px分ホバーしながら要素が移動する。要素が沈み込む感じ。
+```
+.trance-3d:hover {
+    transform: perspective(500)translateZ(-200px);
+}
+```
+一方でperspectiveプロパティの場合は親要素に指定。<br>
+perspectiveプロパティを親要素に指定することで、その子要素の操作をできる。
+```
+プロパティの場合(親要素で指定して子要素だけに適用)
+perspective:500px;
+```
 
 ## 2. perspective-originで投影位置を変更
+perspective-originは遠近感を表現するCSSでperspectiveプロパティを指定して透視投影というのが適用されたときの投影の中心位置を変更することができる。<br>
+- perspective-originの初期値
+
+50% 50%
+
+中心位置を、たとえばperspective-originの値に「0% 50%」に変更すると投影の位置は親要素の左辺から50%の位置に変更できる。という使い方ができる。<br>
+pxや%そして「left center right top center bottom」のキーワードで指定できる。
+
 ## 3. transform-styleで子要素を立体的にする
+CSSのtransform-styleプロパティで子要素を2Dで表示するか、3Dで表示するかを指定できる。<br>
+使い方は3D表示させたい要素の親要素にtransform-styleプロパティを指定しpreserve-3d関数を指定。<br>
+親要素にpreserve-3d;を指定しない場合は親要素の表面で処理する。<br>
+transform-styleは指定できる値が2つある。<br>
+1つはpreserve-3d<br>
+preserve-3dを使うと3D表示。<br>
+2つ目はpreserve-flat<br>
+preserve-flatはtransform-styleの初期値で2次元の処理になる。<br>
+なのでpreserve-3dを指定して親要素を突き抜けた子要素は、親要素でpreserve-flatに指定を変えるだけで、親要素を突き抜けない2D処理の回転に変更できる。

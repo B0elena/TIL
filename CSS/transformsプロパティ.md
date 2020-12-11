@@ -90,9 +90,39 @@ translateでXYZの値をまとめて指定
 ```
 
 ## 4. skewで歪ませる
-## 5. transform-originで原点を変更
+transformに指定するskewは座標系を「歪ませる」変形処理ができる関数
+- skewX
+- skewY
+- skew
+```css
+.tranceform:hover {
+    transform: skew(20deg, 30deg);
+}
+```
 
+## 5. transform-originで原点を変更
+CSSでtransformを適用すると適用した要素は、transform-originの初期値で構成してる原点を元に変形する動作をする。<br>
+しかしtransform-originの初期値で構成してる原点の位置は値を指定することで原点を変更することができる。<br>
+CSSのtransform-originプロパティの初期値の原点は2Dと3Dの初期値がある。
+### transform-origin初期値
+
+- 2D
+
+50% 50%<br>
+原点の位置が要素中央にセット
+- 3D
+
+50% 50% 0<br>
+原点の位置が要素中央にセット
+
+値指定0% 100%で要素の左下の辺を原点にして回転する。<br>
+transform-originの値で原点を変更する値指定にはpxや%、leftやtopで指定ができる。<br>
+```css
+ transform-origin: 0% 100%;
+ transform-origin: left top;
+```
 # transformで3Dの遠近感を表現する使い方
 ## 1. perspectiveで遠近感を表現
+
 ## 2. perspective-originで投影位置を変更
 ## 3. transform-styleで子要素を立体的にする

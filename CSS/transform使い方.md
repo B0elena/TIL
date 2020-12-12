@@ -196,3 +196,15 @@ skew関数は、要素の形を歪ませる、いわゆる傾斜効果を出す�
 「絶対指定(px)」や「相対指定(%)」と「位置指定(top, center等)」。このミックス指定は上手く挙動しないので、統一して設定する。<br>
 初期値は、要素の中心で「center center」か「50% 50%」となっている。
 <img src="https://creive.me/wp-content/uploads/2018/11/d1db8e83a1baeb8c19d0124ed613e501.png">
+
+ ## transform-styleの使い方
+「transform-style」は、2つの値をとる。 2次元を表す場合は「flat」(これが初期値)、3次元を表す場合は「preserve-3d」を親要素に設定する。すると、子要素の三次元表示が実現する。
+ 
+ ## perspectiveの使い方
+perspectiveは、3D要素に遠近感を提供するプロパティ。この設定は、親要素に設定し、効果は子要素で現れる。<br>
+似た設定に「transform:perspective()」がある。これを子要素に設定しても効果は同じ。
+
+## perspective-originの使い方
+perspective-originは、ユーザーが見る視点を提供する。<br>
+「perspective-origin: X軸 Y軸;」=「perspective-origin: top left;」などのように記載をする。<br>
+これは、「top」や「left」などの位置指定だけでなく、相対指定(%)や絶対指定(px)も可能。

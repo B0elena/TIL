@@ -104,7 +104,7 @@ scaleは、要素の拡大と縮小を実現できる。
 
 scale()では、scale(X軸の数値、Y軸の数値)を指定できる。2次元で縦と横に要素が拡大と縮小する。<br>
 値には、「px」などの単位を設定する必要はない。「1.5」と書けば、「要素の1.5倍」、「0.5」と書けば、「要素の0.5倍」となる。また、「- 値」を設定すれば、縮小効果が得られる。
-```
+```css
 .translate:hover{
     transform: scale(1.2, 1.2);
 }
@@ -114,7 +114,7 @@ scale()では、scale(X軸の数値、Y軸の数値)を指定できる。2次元
 ---
 
 - scaleX()
-```
+```css
 .translate:hover{
     transform: scaleX(1.2);
 }
@@ -124,7 +124,7 @@ scale()では、scale(X軸の数値、Y軸の数値)を指定できる。2次元
 ---
 
 - scaleY()
-```
+```css
 .translate:hover{
     transform: scaleY(1.2);
 }
@@ -137,7 +137,7 @@ scale()では、scale(X軸の数値、Y軸の数値)を指定できる。2次元
 
 scaleZ()は、Z軸方向に要素を動かすが、設定しても表向き変化を表現できない。scaleZ()を確認するには、3D効果を表現するようなその他の値と一緒に使う必要がある。<br>
 わかりやすいようにscale(10)を設定する。
-```
+```css
 .translate:hover{
    transform: perspective(400px) scaleZ(10) rotateX(45deg);
 }
@@ -149,7 +149,7 @@ scaleZ()は、Z軸方向に要素を動かすが、設定しても表向き変�
 - scale3d()
 
 scale3d()は、X軸、Y軸、Z軸を一括で指定できる。これもscaleZと同様に3D効果を表現する値と一緒に使わないと機能しない。
-```
+```css
 .translate:hover{
    transform: perspective(400px) scale(1.5, 1.5,10) rotateX(45deg);
 }
@@ -159,3 +159,40 @@ scale3d()は、X軸、Y軸、Z軸を一括で指定できる。これもscaleZ�
  ---
  
 ## skewの使い方
+skew関数は、要素の形を歪ませる、いわゆる傾斜効果を出すことができるが、他の関数と異なり、X軸とY軸での設定しかできないことが特徴。<br>
+また、同様に注意したいことは、値を設定する際は、傾斜の角度(deg)で設定する。
+- skew()
+```css
+.translate:hover{
+   transform: skew(30deg, 30deg);
+}
+```
+<img src="https://i.gyazo.com/b635b4855af116813a89823f77ec50fe.gif">
+
+---
+
+- skewX()
+```css
+.translate:hover{
+    transform: skewX(30deg);
+}
+```
+<img src="https://i.gyazo.com/7874288e36103ab5456aeba90c1a3fa4.gif">
+
+---
+
+- skewY()
+```
+.translate:hover{
+    transform: skewY(30deg);
+}
+```
+<img src="https://i.gyazo.com/9a91f6df939642e2ab87bb5c1ecdafcc.gif">
+
+---
+
+## transform-originの使い方
+「transform-origin」は、変化の起点(原点)を設定するプロパティ。この起点の設定は、幾つかの設定方法がある。<br>
+「絶対指定(px)」や「相対指定(%)」と「位置指定(top, center等)」。このミックス指定は上手く挙動しないので、統一して設定する。<br>
+初期値は、要素の中心で「center center」か「50% 50%」となっている。
+<img src="https://creive.me/wp-content/uploads/2018/11/d1db8e83a1baeb8c19d0124ed613e501.png">

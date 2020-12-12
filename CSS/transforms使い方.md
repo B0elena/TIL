@@ -1,5 +1,5 @@
-## transformの使い方
-### translateの使い方
+# transformの使い方
+## translateの使い方
 - translateX()
 ```css
 .translate:hover{
@@ -17,6 +17,8 @@
 }
 ```
 <img src="https://i.gyazo.com/4045a8e68886db5264c73bcd98b9ebc1.gif">
+
+---
 
 - translateZ()
 
@@ -43,7 +45,7 @@ perspective(500px)とすれば、ユーザーが500px時点の距離にいるこ
 
 ---
 
-### rotateの使い方
+## rotateの使い方
 「rotate」は、要素の回転を表現する値。これも同様にX軸、Y軸、Z軸のそれぞれの設定、あるいは、一括での設定が可能。<br>
 以下は、rotate(20deg)で一括で指定している。「deg」とは「degree」で「度」を意味する。
 - rotate()
@@ -96,4 +98,64 @@ perspective(500px)とすれば、ユーザーが500px時点の距離にいるこ
 
 ---
 
-### scaleの使い方
+## scaleの使い方
+scaleは、要素の拡大と縮小を実現できる。
+- scale()
+
+scale()では、scale(X軸の数値、Y軸の数値)を指定できる。2次元で縦と横に要素が拡大と縮小する。<br>
+値には、「px」などの単位を設定する必要はない。「1.5」と書けば、「要素の1.5倍」、「0.5」と書けば、「要素の0.5倍」となる。また、「- 値」を設定すれば、縮小効果が得られる。
+```
+.translate:hover{
+    transform: scale(1.2, 1.2);
+}
+```
+<img src="https://i.gyazo.com/0891a0f38e184d0f7fc5207098abe91e.gif">
+
+---
+
+- scaleX()
+```
+.translate:hover{
+    transform: scaleX(1.2);
+}
+```
+<img src="https://i.gyazo.com/462466c60d766b0907540488d543597a.gif">
+
+---
+
+- scaleY()
+```
+.translate:hover{
+    transform: scaleY(1.2);
+}
+```
+<img src="https://i.gyazo.com/b01ca320e50d706a317d800786bce3c0.gif">
+
+---
+
+- scaleZ()
+
+scaleZ()は、Z軸方向に要素を動かすが、設定しても表向き変化を表現できない。scaleZ()を確認するには、3D効果を表現するようなその他の値と一緒に使う必要がある。<br>
+わかりやすいようにscale(10)を設定する。
+```
+.translate:hover{
+   transform: perspective(400px) scaleZ(10) rotateX(45deg);
+}
+```
+<img src="https://i.gyazo.com/e20b014d1b7cf8b6da5ec204a7bb6721.gif">
+
+---
+
+- scale3d()
+
+scale3d()は、X軸、Y軸、Z軸を一括で指定できる。これもscaleZと同様に3D効果を表現する値と一緒に使わないと機能しない。
+```
+.translate:hover{
+   transform: perspective(400px) scale(1.5, 1.5,10) rotateX(45deg);
+}
+```
+<img src="https://i.gyazo.com/1d83fed49adfe23136835aab18880f1c.gif">
+          
+ ---
+ 
+## skewの使い方

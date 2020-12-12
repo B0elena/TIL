@@ -36,3 +36,33 @@ transformには、4つの関数が用意されていて、それを設定する�
 | transform-style | 要素の子要素を3Dで配置するか、平面配置か2つ設定ができる |-|-|-|
 | perspective | 3D配置された要素に遠近感を与える効果を出す |-|-|-|
 | perspective-origin | 3D配置された要素のユーザーからの見え方を決める |-|-|-|
+
+## transformの使い方
+### translateの使い方
+#### translateX()
+```
+.translate:hover{
+    transform: translateX(50px);
+}
+```
+<img src="https://i.gyazo.com/d74d9b2a0e346651e577fd1e253b3e7b.gif">
+
+#### translateY()
+```
+.translate:hover{
+    transform: translateY(50px);
+}
+```
+<img src="https://i.gyazo.com/4045a8e68886db5264c73bcd98b9ebc1.gif">
+
+#### translateZ()
+translateZ()は、単体で設定しても、何の動きも実現してくれないので、遠近感を出すperspective()と一緒に使う。<br>
+perspectiveを設定すれば、Zの値を0と考え、その時点でユーザーがどの位置にいるかを想定した値がpx数となる。<br>
+perspective(500px)とすれば、ユーザーが500px時点の距離にいることを想定し、translateZ()の値を動かす。<br>
+例えば、perspective(500px)で、translateZ(10px)と書けば、非常に細かな動きになり、逆にtranslateZ(1000px)と書けば、視界を飛び越えた動きをする。<br>
+```
+.translate:hover{
+    transform: perspective(500px) translateZ(100px);
+}
+```
+<img src="https://i.gyazo.com/4bf08e06f2e9bf3beb3636c437d33fd7.gif">

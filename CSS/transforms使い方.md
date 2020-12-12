@@ -8,6 +8,8 @@
 ```
 <img src="https://i.gyazo.com/d74d9b2a0e346651e577fd1e253b3e7b.gif">
 
+----
+
 - translateY()
 ```css
 .translate:hover{
@@ -17,6 +19,7 @@
 <img src="https://i.gyazo.com/4045a8e68886db5264c73bcd98b9ebc1.gif">
 
 - translateZ()
+
 translateZ()は、単体で設定しても、何の動きも実現してくれないので、遠近感を出すperspective()と一緒に使う。<br>
 perspectiveを設定すれば、Zの値を0と考え、その時点でユーザーがどの位置にいるかを想定した値がpx数となる。<br>
 perspective(500px)とすれば、ユーザーが500px時点の距離にいることを想定し、translateZ()の値を動かす。<br>
@@ -28,6 +31,8 @@ perspective(500px)とすれば、ユーザーが500px時点の距離にいるこ
 ```
 <img src="https://i.gyazo.com/4bf08e06f2e9bf3beb3636c437d33fd7.gif">
 
+---
+
 - translate3d()
 ```css
 .translate:hover{
@@ -35,6 +40,8 @@ perspective(500px)とすれば、ユーザーが500px時点の距離にいるこ
 }
 ```
 <img src="https://i.gyazo.com/e9aed5d839218451dc71b55ce181669c.gif">
+
+---
 
 ### rotateの使い方
 「rotate」は、要素の回転を表現する値。これも同様にX軸、Y軸、Z軸のそれぞれの設定、あるいは、一括での設定が可能。<br>
@@ -47,6 +54,8 @@ perspective(500px)とすれば、ユーザーが500px時点の距離にいるこ
 ```
 <img src="https://i.gyazo.com/4682a6462041304c2b86102618d74170.gif">
 
+---
+
 - rotateX()
 ```css
 .translate:hover{
@@ -54,6 +63,8 @@ perspective(500px)とすれば、ユーザーが500px時点の距離にいるこ
 }
 ```
 <img src="https://i.gyazo.com/a00e70b1d221a6a20823e63283fe20c0.gif">
+
+---
 
 - rotateY()
 ```css
@@ -63,6 +74,8 @@ perspective(500px)とすれば、ユーザーが500px時点の距離にいるこ
 ```
 <img src="https://i.gyazo.com/c15147e0b279914e413d5482712e839e.gif">
 
+---
+
 - rotateZ()
 ```css
 .translate:hover{
@@ -71,6 +84,8 @@ perspective(500px)とすれば、ユーザーが500px時点の距離にいるこ
 ```
 <img src="https://i.gyazo.com/e7946917598bf4851458ecb1f2fae094.gif">
 
+---
+
 - rotate3d()
 ```css
 .translate:hover{
@@ -78,5 +93,7 @@ perspective(500px)とすれば、ユーザーが500px時点の距離にいるこ
 }
 ```
 <img src="https://i.gyazo.com/425299d1dd2a50c5ec3666fc320c96f6.gif">
+
+---
 
 ### scaleの使い方

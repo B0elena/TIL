@@ -1,13 +1,4 @@
-## ベンダープレフィクス
-要素に動きをつける「transform」ですが、ブラウザによっては対応していないものがあり、「ベンダープレフィクス」というものを付ける場合がある。<br>
-これをつける理由は、「人によっては見ているブラウザが違っていて、そのブラウザによっては見えない人もいる。」ということを知っておく必要がある。
 
-| ブラウザ | つけるベンダープレフィクス | つけ方(例) |
-|-|-|-|
-| Google Chrome/Safari | -webkit- | -webkit-transform: rotate(10deg); |
-| Firefox | -moz- | -moz-transform: rotate(10deg); |
-| Internet Explore | -ms- | -ms-transform: rotate(10deg); |
-| Opera | -o- | -o-transform: rotate(10deg); |
 
 ## transformで使えるプロパティ
 transformには、4つの関数が用意されていて、それを設定することで要素に動きがつけられる。

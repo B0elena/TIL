@@ -66,3 +66,53 @@ perspective(500px)とすれば、ユーザーが500px時点の距離にいるこ
 }
 ```
 <img src="https://i.gyazo.com/4bf08e06f2e9bf3beb3636c437d33fd7.gif">
+
+#### translate3d()
+```
+.translate:hover{
+    transform: perspective(400px) translate3d(30px, 30px, 30px);
+}
+```
+<img src="https://i.gyazo.com/e9aed5d839218451dc71b55ce181669c.gif">
+
+### rotateの使い方
+「rotate」は、要素の回転を表現する値。これも同様にX軸、Y軸、Z軸のそれぞれの設定、あるいは、一括での設定が可能。<br>
+以下は、rotate(20deg)で一括で指定している。「deg」とは「degree」で「度」を意味する。
+#### rotate()
+```
+.translate:hover{
+    transform: rotate(20deg);
+}
+```
+<img src="https://i.gyazo.com/4682a6462041304c2b86102618d74170.gif">
+
+#### rotateX()
+```
+.translate:hover{
+    transform: rotateX(360deg);
+}
+```
+<img src="https://i.gyazo.com/a00e70b1d221a6a20823e63283fe20c0.gif">
+#### rotateY()
+```
+.translate:hover{
+    transform: rotateY(360deg);
+}
+```
+<img src="https://i.gyazo.com/c15147e0b279914e413d5482712e839e.gif">
+#### rotateZ()
+```
+.translate:hover{
+    transform: rotateZ(360deg);
+}
+```
+<img src="https://i.gyazo.com/e7946917598bf4851458ecb1f2fae094.gif">
+#### rotate3d()
+```
+.translate:hover{
+    transform: rotate3d(10,10,10,360deg);
+}
+```
+<img src="https://i.gyazo.com/425299d1dd2a50c5ec3666fc320c96f6.gif">
+
+### scaleの使い方

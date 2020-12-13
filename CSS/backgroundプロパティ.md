@@ -15,3 +15,4 @@ backgroundで色や画像を設定するメリットは、HTMLで要素として
 |background-attachment|値は、「scroll」、「fixed」、「local」のうちどれか1つをとる。|「-attachment」は、背景画像を固定したり、スクロールしたりといった機能を提供する。|
 |background-origin|値は、「border-box」、「padding-box」、「content-box」の3つをとる。|background-originは、背景画像や背景色の基準点を設定できる。基準点は左上で、その起点を要素の右上か、paddingの右上か、borderの右上かを指定できる。|
 |background-clip|値は、「border-box」、「padding-box」、「content-box」、「text」の4つをとる。|background-clipは、背景画像や背景色をどの範囲で塗るかというイメージを持つと良い。「content-box」は、背景画像(背景色)を要素内で納めて配置する。「padding-box」はpadding内で背景画像(背景色)を配置する。「border-box」はborderの外側まで範囲を広げて背景画像(背景色)を配置する。|
+

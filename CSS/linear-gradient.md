@@ -59,5 +59,28 @@ background: linear-gradient(to left, #FA709A, #FBAB7E, #F7CE68);
 ```css
 background: linear-gradient(45deg, #FA709A, #FBAB7E, #F7CE68);
 ```
-左下を始点として45度方向にグラデーションが実現する。
+左下を始点としたい場合は、45degを設定する。
 <img src="https://creive.me/wp-content/uploads/2018/11/755994d701271ff33b4fcb0fc45493c5.png">
+
+---
+```css
+background: linear-gradient(135deg, #FA709A, #FBAB7E, #F7CE68);
+```
+左上を始点としたい場合は、135degを設定する。
+<img src="https://creive.me/wp-content/uploads/2018/11/755994d701271ff33b4fcb0fc45493c5.png">
+
+---
+
+```css
+background: linear-gradient(315deg, #FA709A, #FBAB7E, #F7CE68);
+```
+右下を始点としたい場合は、315deg(-45deg)を設定する。
+<img src="https://creive.me/wp-content/uploads/2018/11/83c2d04a361716bc64cea8032e3c4997.png">
+
+---
+
+```css
+background: linear-gradient(-135deg, #FA709A, #FBAB7E, #F7CE68);
+```
+右上を始点としたい場合は、-135degを設定する。
+<img src="https://creive.me/wp-content/uploads/2018/11/90c70efd5d32b319722be05382b8fab3.png">

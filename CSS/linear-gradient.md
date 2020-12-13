@@ -40,3 +40,18 @@ background: linear-gradient(#FA709A 30%, #FBAB7E 60%, #F7CE68 100%);
 ---
 
 ### 方向と角度(傾斜)の指定
+#### 上下左右を起点にする場合
+グラデーションの方向を設定する場合、位置指定を行うことで、これを実現できる。初期設定は、上から下へのグラデーションだが、この方向を変更したければ、「top」、「right」、「bottom」、「left」といった位置を示すキーワードを置く。その際、キーワードの前に「to」を置く。
+```css
+background: linear-gradient(to left, #FA709A, #FBAB7E, #F7CE68);
+```
+<img src="https://creive.me/wp-content/uploads/2018/11/f2d129b30518126cbd3b503e57df890a.png">
+
+|意味|位置|
+|-|-|
+|上から下へ|to bottom|
+|右から左へ|to left|
+|下から上へ|to top|
+|左から右へ|to right|
+
+#### 傾斜角度を設定する場合

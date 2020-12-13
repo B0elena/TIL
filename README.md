@@ -29,7 +29,7 @@
 - セマンティック・マークアップ
 
 ### JavaScript
-
+- js基本
 
 ### jQuery
 

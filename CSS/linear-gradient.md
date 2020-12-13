@@ -55,3 +55,9 @@ background: linear-gradient(to left, #FA709A, #FBAB7E, #F7CE68);
 |左から右へ|to right|
 
 #### 傾斜角度を設定する場合
+方向指定では傾斜もある。この場合、角度指定のdeg(degree)を用いる。
+```css
+background: linear-gradient(45deg, #FA709A, #FBAB7E, #F7CE68);
+```
+左下を始点として45度方向にグラデーションが実現する。
+<img src="https://creive.me/wp-content/uploads/2018/11/755994d701271ff33b4fcb0fc45493c5.png">

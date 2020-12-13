@@ -77,7 +77,7 @@ background: linear-gradient(135deg, #FA709A, #FBAB7E, #F7CE68);
 background: linear-gradient(315deg, #FA709A, #FBAB7E, #F7CE68);
 ```
 右下を始点としたい場合は、315deg(-45deg)を設定する。
-<img src="https://creive.me/wp-content/uploads/2018/11/83c2d04a361716bc64cea8032e3c4997.png">
+<img src="https://creive.me/wp-content/uploads/2018/11/c360c715faec19aef6b578970ff6bb18.png">
 
 ---
 
@@ -86,3 +86,7 @@ background: linear-gradient(-135deg, #FA709A, #FBAB7E, #F7CE68);
 ```
 右上を始点としたい場合は、-135degを設定する。
 <img src="https://creive.me/wp-content/uploads/2018/11/90c70efd5d32b319722be05382b8fab3.png">
+
+---
+
+### ベンダープレフィクス付きの設定

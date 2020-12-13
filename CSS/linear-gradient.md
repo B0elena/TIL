@@ -90,3 +90,17 @@ background: linear-gradient(-135deg, #FA709A, #FBAB7E, #F7CE68);
 ---
 
 ### ベンダープレフィクス付きの設定
+#### 方向性の設定
+ベンダープレフィクスをつけた場合は、以下のように書く。すなわち、右方向へグラデーションを展開する場合は、起点を設定するということ。
+```css
+background: linear-gradient(to right, #FA709A, #FBAB7E, #F7CE68);
+background: -moz-linear-gradient(left, #FA709A, #FBAB7E, #F7CE68);
+background: -webkit-linear-gradient(left, #FA709A, #FBAB7E, #F7CE68);
+```
+#### 角度の設定
+90- 本来設定したい角度 = ベンダプレフィクス付きのdeg
+```css
+background: linear-gradient(135deg, #FA709A, #FBAB7E, #F7CE68);
+background: -moz-linear-gradient(-45deg, #FA709A, #FBAB7E, #F7CE68);
+background: -webkit-linear-gradient(-45deg, #FA709A, #FBAB7E, #F7CE68);
+```

@@ -27,7 +27,7 @@ background: linear-gradient(#FBAB7E 50%, #F7CE68);
 ```css
 background: linear-gradient(#FA709A, #FBAB7E, #F7CE68);
 ```
-<img src="https://creive.me/wp-content/uploads/2018/11/ead92844305f54fe5533c69f03471b5c.png=>
+<img src="https://creive.me/wp-content/uploads/2018/11/ead92844305f54fe5533c69f03471b5c.png">
           
 ---
 

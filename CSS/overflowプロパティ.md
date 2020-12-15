@@ -79,6 +79,7 @@ crollの値をとると、要素内にスクロールバーが表示され、要
 ```
 <img src="https://creive.me/wp-content/uploads/2019/02/a36e1b617426bba4ab59c90999e081e7.png">
 以下のように設定(white-space: nowrap;)すれば、下にスクロールバーが表示される。
+
 ```css
 .wrapper p{
         border:solid 1px blue;
@@ -99,6 +100,7 @@ hiddenは設定した要素以外の表示を非表示にする機能。要素�
     overflow: hidden;
 }
 ```
+<img src="https://creive.me/wp-content/uploads/2019/02/3660d50d44bbb887dc80f8f60fee2358.png">
 
 ### auto
 これは、ブラウザにその処理を委ねるが、基本的な結果は、scrollの場合と変わらない。
@@ -111,6 +113,3 @@ hiddenは設定した要素以外の表示を非表示にする機能。要素�
 }
 ```
 <img src="https://creive.me/wp-content/uploads/2019/02/4b0117a4d308af9778d3e979de2f6231.png">
-
-
-## overflow-xとoverflow-yの使い方

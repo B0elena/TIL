@@ -53,3 +53,64 @@ clearfixやclearbothと同じ効果が出せる。そのため、overflowはfloa
 |scroll|これを設定すると、要素の縦横を固定し、スクロールバーが表示される。そこからはみ出る内容は、スクロールをすることで見ることができるようになっている。|
 |hidden|これを設定すると、要素の範囲以外の部分が非表示となる。|
 |auto|これを設定すると、要素からはみ出た部分の処理をブラウザに委ねることになる。普通はこれを設定すれば、スクロールバーが表示される。この点でscrollと同じ。従って、目的を持って設定するのであれば、scrollとした方が良い。|
+
+## overflowの使い方
+### visible
+これは初期値で、overflowを設定しない場合はこの設定になる。つまり、要素の大きさをはみ出て表示させる。
+```css
+.wrapper p{
+        border:solid 1px blue;
+　　　　 height:80px;
+    overflow: visible;
+     
+}
+```
+<img src="https://creive.me/wp-content/uploads/2019/02/b0887ae18c46452da4d2a66dd38f2ebc.png">
+
+### scroll
+crollの値をとると、要素内にスクロールバーが表示され、要素のサイズを保ちつつ、スクロールによって内容を見ることができる。
+```css
+.wrapper p{
+        border:solid 1px blue;
+　　　　 height:80px;
+    overflow: scroll;
+     
+}
+```
+<img src="https://creive.me/wp-content/uploads/2019/02/a36e1b617426bba4ab59c90999e081e7.png">
+以下のように設定(white-space: nowrap;)すれば、下にスクロールバーが表示される。
+```css
+.wrapper p{
+        border:solid 1px blue;
+　　　　 height:80px;
+    overflow: scroll;
+    white-space: nowrap;
+}
+```
+<img src="https://creive.me/wp-content/uploads/2019/02/efc2d486a6e21b8623f2d8ddb19c32c5.png">
+
+### hidden
+hiddenは設定した要素以外の表示を非表示にする機能。要素内に収まらない内容があれば、それを見えなくする。
+```css
+.wrapper p{
+    border:solid 1px blue;
+    width:100%;
+    height:80px;
+    overflow: hidden;
+}
+```
+
+### auto
+これは、ブラウザにその処理を委ねるが、基本的な結果は、scrollの場合と変わらない。
+```css
+.wrapper p{
+        border:solid 1px blue;
+　　　　 height:80px;
+    overflow: auto;
+     
+}
+```
+<img src="https://creive.me/wp-content/uploads/2019/02/4b0117a4d308af9778d3e979de2f6231.png">
+
+
+## overflow-xとoverflow-yの使い方

@@ -28,7 +28,8 @@ clearfixやclearbothと同じ効果が出せる。そのため、overflowはfloa
 .wrapper p{
     width: 30%;
     float: left;
-}```
+}
+```
 <img src="https://creive.me/wp-content/uploads/2019/02/31f5c39536d7677035c8756f92f6abbb.png">
 この回り込みを阻止するために、overflowを使うことができる。親要素であるwrapperクラスに「overflow:hidden;」を設定する。<br>
 ポイントは親要素であるwrapperにoverflowを設定したこと。これによって、親要素のwrapperの高さと幅が決まり、そこからはみ出ることを許さなくなる。

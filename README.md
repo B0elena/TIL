@@ -34,6 +34,9 @@
 ### JavaScript
 - js基本
 
+### PHP
+- PHP基本
+
 ### jQuery
 - スムーズスクロール
 - パララックス

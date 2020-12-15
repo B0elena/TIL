@@ -1,7 +1,7 @@
 ### CMS
 - CMSとは
 - CMSの種類と特徴
-- [よく使うタグ(WP)](https://github.com/B0elena/TIL/blob/main/CMS/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86%E3%82%BF%E3%82%B0(WP).md)
+- よく使うタグ(WP)
 - 導入するメリット
 
 ### CSS
@@ -13,7 +13,7 @@
 - positionプロパティ
 - transformシート
 - transformプロパティ
-- [transform使い方](https://github.com/B0elena/TIL/blob/main/CSS/transform%E4%BD%BF%E3%81%84%E6%96%B9.md)
+- transform使い方
 - transitionプロパティ
 - アニメーション
 - グラデーション楕円系

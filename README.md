@@ -1,6 +1,6 @@
 ### CMS
-- [CMSとは]()
-- CMSの種類と特徴
+- [CMSとは](https://github.com/B0elena/TIL/blob/main/CMS/CMS%E3%81%A8%E3%81%AF.md)
+- [CMSの種類と特徴]()
 - よく使うタグ(WP)
 - 導入するメリット
 

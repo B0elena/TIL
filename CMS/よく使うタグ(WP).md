@@ -101,21 +101,27 @@
 ```
 // ループ開始
 <?php if ( have_posts() ) : ?>
-<?php while ( have_posts() ) : the_post(); ?> // 投稿内容を出力
+<?php while ( have_posts() ) : the_post(); ?> 
+// 投稿内容を出力
 ...
 <?php endwhile; else : ?>
 // 投稿がない場合の表示を処理
 ...
 <?php endif; ?>
-// サブループの準備(例) <?php $args = array(
-'category_name' => 'music',
-'order' => 'DESC', ); ?>
+```
+```
+// サブループの準備(例) 
+<?php $args = array(
+    'category_name' => 'music',
+    'order' => 'DESC', ); 
+?>
 <?php $the_query = new WP_Query( $args ); ?>
 ```
 ```
 // サブループ開始
 <?php if ( $the_query->have_posts() ) : ?>
-<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?> // 投稿内容を出力
+<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?> 
+// 投稿内容を出力
 ...
 <?php endwhile; ?> // サブループ終了
 <?php wp_reset_postdata(); ?> //クエリリセット(重要)

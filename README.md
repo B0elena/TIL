@@ -9,6 +9,7 @@
 - backgroundプロパティ
 - font-sizeの使い方
 - object-fitプロパティ
+- overflowプロパティ
 - positionプロパティ
 - transformシート
 - transformプロパティ

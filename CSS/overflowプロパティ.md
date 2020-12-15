@@ -62,7 +62,6 @@ clearfixやclearbothと同じ効果が出せる。そのため、overflowはfloa
         border:solid 1px blue;
 　　　　 height:80px;
     overflow: visible;
-     
 }
 ```
 <img src="https://creive.me/wp-content/uploads/2019/02/b0887ae18c46452da4d2a66dd38f2ebc.png">
@@ -73,8 +72,7 @@ crollの値をとると、要素内にスクロールバーが表示され、要
 .wrapper p{
         border:solid 1px blue;
 　　　　 height:80px;
-    overflow: scroll;
-     
+    overflow: scroll;    
 }
 ```
 <img src="https://creive.me/wp-content/uploads/2019/02/a36e1b617426bba4ab59c90999e081e7.png">
@@ -108,8 +106,7 @@ hiddenは設定した要素以外の表示を非表示にする機能。要素�
 .wrapper p{
         border:solid 1px blue;
 　　　　 height:80px;
-    overflow: auto;
-     
+    overflow: auto;   
 }
 ```
 <img src="https://creive.me/wp-content/uploads/2019/02/4b0117a4d308af9778d3e979de2f6231.png">

@@ -98,7 +98,7 @@
 |ユーザーがログインしているかを判定|```is_user_logged_in()```|
 
 ## 【ループ(メインループとサブループ)】
-```
+```php
 // ループ開始
 <?php if ( have_posts() ) : ?>
 <?php while ( have_posts() ) : the_post(); ?> 
@@ -109,7 +109,7 @@
 ...
 <?php endif; ?>
 ```
-```
+```php
 // サブループの準備(例) 
 <?php $args = array(
     'category_name' => 'music',
@@ -117,7 +117,7 @@
 ?>
 <?php $the_query = new WP_Query( $args ); ?>
 ```
-```
+```php
 // サブループ開始
 <?php if ( $the_query->have_posts() ) : ?>
 <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?> 

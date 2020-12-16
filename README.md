@@ -22,29 +22,29 @@
 - [ベンダープレフィクス](https://github.com/B0elena/TIL/blob/main/CSS/%E3%83%99%E3%83%B3%E3%83%80%E3%83%BC%E3%83%97%E3%83%AC%E3%83%95%E3%82%A3%E3%82%AF%E3%82%B9.md)
 
 ### EC
-- 7つのプラットホームの存在
+- [7つのプラットホームの存在](https://github.com/B0elena/TIL/blob/main/EC/7%E3%81%A4%E3%81%AE%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%9B%E3%83%BC%E3%83%A0%E3%81%AE%E5%AD%98%E5%9C%A8.md)
 
 ### HTML
-- aタグのalt属性など
-- headタグ内の書き方
-- グルーピングするタグ
-- セマンティック・マークアップ
-- フォーム作成
+- [aタグのalt属性など](https://github.com/B0elena/TIL/blob/main/HTML/a%E3%82%BF%E3%82%B0%E3%81%AEalt%E5%B1%9E%E6%80%A7%E3%81%AA%E3%81%A9.md)
+- [headタグ内の書き方](https://github.com/B0elena/TIL/blob/main/HTML/head%E3%82%BF%E3%82%B0%E5%86%85%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9.md)
+- [グルーピングするタグ](https://github.com/B0elena/TIL/blob/main/HTML/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%94%E3%83%B3%E3%82%B0%E3%81%99%E3%82%8B%E3%82%BF%E3%82%B0.md)
+- [セマンティック・マークアップ](https://github.com/B0elena/TIL/blob/main/HTML/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%BB%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97.md)
+- [フォーム作成](https://github.com/B0elena/TIL/blob/main/HTML/%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E4%BD%9C%E6%88%90.md)
 
 ### JavaScript
-- js基本
+- [js基本](https://github.com/B0elena/TIL/blob/main/JavaScript/js%E5%9F%BA%E6%9C%AC.md)
 
 ### PHP
-- PHP基本
+- [PHP基本](https://github.com/B0elena/TIL/blob/main/PHP/%E5%9F%BA%E6%9C%AC.md)
 
 ### jQuery
-- スムーズスクロール
-- パララックス
-- フェードイン
+- [スムーズスクロール](https://github.com/B0elena/TIL/blob/main/jQuery/%E3%82%B9%E3%83%A0%E3%83%BC%E3%82%BA%E3%82%B9%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%AB.md)
+- [パララックス](https://github.com/B0elena/TIL/blob/main/jQuery/%E3%83%91%E3%83%A9%E3%83%A9%E3%83%83%E3%82%AF%E3%82%B9.md)
+- [フェードイン](https://github.com/B0elena/TIL/blob/main/jQuery/%E3%83%95%E3%82%A7%E3%83%BC%E3%83%89%E3%82%A4%E3%83%B3.md)
 
 ### デザイン
-- カラーモード
-- デザインカンプからのコーディング
-- ファイル形式
-- ペルソナ設計
-- 仕様書からのWebデザインカンプ
+- [カラーモード](https://github.com/B0elena/TIL/blob/main/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3/%E3%82%AB%E3%83%A9%E3%83%BC%E3%83%A2%E3%83%BC%E3%83%89.md)
+- [デザインカンプからのコーディング](https://github.com/B0elena/TIL/blob/main/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%B3%E3%83%97%E3%81%8B%E3%82%89%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0.md)
+- [ファイル形式](https://github.com/B0elena/TIL/blob/main/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E5%BD%A2%E5%BC%8F.md)
+- [ペルソナ設計](https://github.com/B0elena/TIL/blob/main/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3/%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A%E8%A8%AD%E8%A8%88.md)
+- [仕様書からのWebデザインカンプ](https://github.com/B0elena/TIL/blob/main/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3/%E4%BB%95%E6%A7%98%E6%9B%B8%E3%81%8B%E3%82%89%E3%81%AEWeb%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%B3%E3%83%97.md)

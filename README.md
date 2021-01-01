@@ -1,5 +1,5 @@
 ### CEO
-- [CEOとは1](https://github.com/B0elena/TIL/blob/main/CEO/CEO%E3%81%A8%E3%81%AF.md)
+- [CEOとは1](https://github.com/B0elena/TIL/blob/main/CEO/CEO%E3%81%A8%E3%81%AF1.md)
 - [CEOとは2](https://github.com/B0elena/TIL/blob/main/CEO/CEO%E3%81%A8%E3%81%AF2.md)
 ### CMS
 - [CMSとは](https://github.com/B0elena/TIL/blob/main/CMS/CMS%E3%81%A8%E3%81%AF.md)

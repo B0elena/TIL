@@ -28,6 +28,7 @@
 
 ### EC
 - [7つのプラットホームの存在](https://github.com/B0elena/TIL/blob/main/EC/7%E3%81%A4%E3%81%AE%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%9B%E3%83%BC%E3%83%A0%E3%81%AE%E5%AD%98%E5%9C%A8.md)
+- [Eコマースとは](https://github.com/B0elena/TIL/blob/main/EC/e%E3%82%B3%E3%83%9E%E3%83%BC%E3%82%B9%E3%81%A8%E3%81%AF.md)
 
 ### HTML
 - [aタグのalt属性など](https://github.com/B0elena/TIL/blob/main/HTML/a%E3%82%BF%E3%82%B0%E3%81%AEalt%E5%B1%9E%E6%80%A7%E3%81%AA%E3%81%A9.md)

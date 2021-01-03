@@ -1,5 +1,5 @@
 ### Business
-- [](_)
+- [電話対応マナー](https://github.com/B0elena/TIL/blob/main/Business/%E9%9B%BB%E8%A9%B1%E5%AF%BE%E5%BF%9C%E3%83%9E%E3%83%8A%E3%83%BC.md)
 ### CEO
 - [CEOとは1](https://github.com/B0elena/TIL/blob/main/CEO/CEO%E3%81%A8%E3%81%AF1.md)
 - [CEOとは2](https://github.com/B0elena/TIL/blob/main/CEO/CEO%E3%81%A8%E3%81%AF2.md)

@@ -2,6 +2,7 @@
 - [ビジネス敬語](https://github.com/B0elena/TIL/blob/main/Business/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E6%95%AC%E8%AA%9E.md)
 - [ビジネス枕詞](https://github.com/B0elena/TIL/blob/main/Business/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E6%9E%95%E8%A9%9E.md)
 - [基本の報連相](https://github.com/B0elena/TIL/blob/main/Business/%E5%9F%BA%E6%9C%AC%E3%81%AE%E5%A0%B1%E9%80%A3%E7%9B%B8.md)
+- [時間のマナー](https://github.com/B0elena/TIL/blob/main/Business/%E6%99%82%E9%96%93%E3%81%AE%E3%83%9E%E3%83%8A%E3%83%BC.md)
 - [訪問マナー](https://github.com/B0elena/TIL/blob/main/Business/%E8%A8%AA%E5%95%8F%E3%83%9E%E3%83%8A%E3%83%BC.md)
 - [電話対応マナー](https://github.com/B0elena/TIL/blob/main/Business/%E9%9B%BB%E8%A9%B1%E5%AF%BE%E5%BF%9C%E3%83%9E%E3%83%8A%E3%83%BC.md)
 ### CEO

@@ -48,6 +48,9 @@
 ### JavaScript
 - [js基本](https://github.com/B0elena/TIL/blob/main/JavaScript/js%E5%9F%BA%E6%9C%AC.md)
 
+### LP
+- [ランディングページとは]()
+
 ### PHP
 - [PHP基本](https://github.com/B0elena/TIL/blob/main/PHP/%E5%9F%BA%E6%9C%AC.md)
 

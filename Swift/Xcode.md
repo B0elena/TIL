@@ -47,5 +47,5 @@ option + command + control + enter
 
 ---
 ### インデントを揃える
-command + a　　全選択
+command + a　　全選択<br>
 control + i　　自動でインデントを揃えてくれる

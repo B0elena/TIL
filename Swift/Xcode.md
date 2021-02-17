@@ -46,3 +46,6 @@ option + command + control + enter
 下から上へ覆い被さるように画面が出てくる遷移のこと
 
 ---
+### インデントを揃える
+command + a　　全選択
+control + i　　自動でインデントを揃えてくれる

@@ -48,6 +48,9 @@
 ### JavaScript
 - [js基本](https://github.com/B0elena/TIL/blob/main/JavaScript/js%E5%9F%BA%E6%9C%AC.md)
 
+### Kotlin
+- []()
+
 ### LP
 - [ランディングページとは](https://github.com/B0elena/TIL/blob/main/LP/%E3%83%A9%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%A8%E3%81%AF.md)
 

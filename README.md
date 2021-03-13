@@ -50,6 +50,7 @@
 
 ### Kotlin
 - [変数と基本データ型](https://github.com/B0elena/TIL/blob/main/Kotlin/%E5%A4%89%E6%95%B0%E3%81%A8%E5%9F%BA%E6%9C%AC%E3%83%87%E3%83%BC%E3%82%BF.md)
+- [配列とコレクション]()
 
 ### LP
 - [ランディングページとは](https://github.com/B0elena/TIL/blob/main/LP/%E3%83%A9%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%A8%E3%81%AF.md)

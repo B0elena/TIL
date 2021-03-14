@@ -49,6 +49,7 @@
 - [js基本](https://github.com/B0elena/TIL/blob/main/JavaScript/js%E5%9F%BA%E6%9C%AC.md)
 
 ### Kotlin
+- [Kotlin基本まとめ](https://github.com/B0elena/TIL/blob/main/Kotlin/Kotlin%E5%9F%BA%E6%9C%AC%E3%81%BE%E3%81%A8%E3%82%81.md)
 - [クラス](https://github.com/B0elena/TIL/blob/main/Kotlin/%E3%82%AF%E3%83%A9%E3%82%B9.md)
 - [スコープ関数](https://github.com/B0elena/TIL/blob/main/Kotlin/%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97%E9%96%A2%E6%95%B0.md)
 - [制御構造](https://github.com/B0elena/TIL/blob/main/Kotlin/%E5%88%B6%E5%BE%A1%E6%A7%8B%E9%80%A0.md)

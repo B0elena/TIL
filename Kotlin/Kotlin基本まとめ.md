@@ -156,7 +156,7 @@ fun sum(num: Int): Int {
         return num
 }
 
-// こう書ける。tailrecで修飾すると再帰が最適化されます。詳しくは参考リンク↑
+// こう書ける。tailrecで修飾すると再帰が最適化されます。
 tailrec fun sum(num: Int, total:Int = 0) : Int
     = if(num != 0) sum(num - 1, total + num) else total
 ```
@@ -594,7 +594,7 @@ class Hoge(n: String) {
     val name = n
 }
 
-// プライマリコンストラクタでプロパティも一緒に定義するケース↓
+// プライマリコンストラクタでプロパティも一緒に定義するケース
 class Hoge(val name: String) {
 }
 ```
@@ -604,11 +604,11 @@ class Hoge(val name: String) {
 class Hoge {
     val num: Int
 
-    // 外側のクラスのメンバを参照するときはinner classにしないと参照できないよ
+    // 外側のクラスのメンバを参照するときはinner classにしないと参照できない
     inner class Fugo {
         val total = num + 10
 
-        // おまけ：inner class から外側のクラスのthisを指したいときは@で指定
+        // inner class から外側のクラスのthisを指したいときは@で指定
         // this@Hoge
     }
 }
@@ -660,7 +660,7 @@ if (hoge != null) {
     textView.text = hoge.name
 }
 
-// こう書けます
+// こう書ける
 hoge?.let {
     textView.text = it.name
 }

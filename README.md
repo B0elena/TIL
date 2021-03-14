@@ -55,6 +55,7 @@
 - [変数と基本データ型](https://github.com/B0elena/TIL/blob/main/Kotlin/%E5%A4%89%E6%95%B0%E3%81%A8%E5%9F%BA%E6%9C%AC%E3%83%87%E3%83%BC%E3%82%BF.md)
 - [繰り返し](https://github.com/B0elena/TIL/blob/main/Kotlin/%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97.md)
 - [配列とコレクション](https://github.com/B0elena/TIL/blob/main/Kotlin/%E9%85%8D%E5%88%97%E3%81%A8%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3.md)
+- [関数]()
 
 ### LP
 - [ランディングページとは](https://github.com/B0elena/TIL/blob/main/LP/%E3%83%A9%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%A8%E3%81%AF.md)

@@ -33,6 +33,18 @@ for (キー, 値) in 辞書 {
 
 var f = ["apple": 1, "banana": 3, "orange":20]
 for (key, value) in f {
-  print(key, value)
+  print(key, value)  // 辞書型は順番を保証しないので、どの順番で出力されるかわからない
 }
+```
+``` swift
+// 集合
+for XX in 集合 {
+  処理
+}
+
+var numSet: Set = [0, 1, 2, 3]
+for i in numSet {
+  print(i)  // // 集合は順番を保証しないので、どの順番で出力されるかわからない
+}
+
 ```

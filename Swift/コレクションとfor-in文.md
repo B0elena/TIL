@@ -36,6 +36,10 @@ var f = ["apple": 1, "banana": 3, "orange":20]
 for (key, value) in f {
   print(key, value)  // 辞書型は順番を保証しないので、どの順番で出力されるかわからない
 }
+// これでもOKで、タプルで出力される
+for dic in f {
+  print(dic)  
+}
 ```
 
 ### 集合

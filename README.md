@@ -74,6 +74,7 @@
 - [構造体](https://github.com/B0elena/TIL/blob/main/Swift/%E6%A7%8B%E9%80%A0%E4%BD%93.md)
 - [繰り返し](https://github.com/B0elena/TIL/blob/main/Swift/%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97.md)
 - [複合代入演算子](https://github.com/B0elena/TIL/blob/main/Swift/%E8%A4%87%E5%90%88%E4%BB%A3%E5%85%A5%E6%BC%94%E7%AE%97%E5%AD%90.md)
+- [辞書型](https://github.com/B0elena/TIL/blob/main/Swift/%E8%BE%9E%E6%9B%B8%E5%9E%8B.md)
 - [配列](https://github.com/B0elena/TIL/blob/main/Swift/%E9%85%8D%E5%88%97.md)
 
 ### jQuery

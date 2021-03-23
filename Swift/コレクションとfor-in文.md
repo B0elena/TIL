@@ -10,8 +10,8 @@ for XX in コレクション {
   処理
 }
 ```
+### 配列
 ``` swift
-// 配列
 for XX in 配列 {
   処理
 }
@@ -25,8 +25,9 @@ for (i, num) in arr.enumerated() {
   print(i, num)  // インデックス番号と一緒に出力される
 }
 ```
+
+### 辞書
 ``` swift
-// 辞書
 for (キー, 値) in 辞書 {
   処理
 }
@@ -36,8 +37,9 @@ for (key, value) in f {
   print(key, value)  // 辞書型は順番を保証しないので、どの順番で出力されるかわからない
 }
 ```
+
+### 集合
 ``` swift
-// 集合
 for XX in 集合 {
   処理
 }

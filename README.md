@@ -71,7 +71,7 @@
 - [基本](https://github.com/B0elena/TIL/blob/main/Swift/%E5%9F%BA%E6%9C%AC.md)
 - [基本まとめ](https://github.com/B0elena/TIL/blob/main/Swift/%E5%9F%BA%E6%9C%AC%E3%81%BE%E3%81%A8%E3%82%81.md)
 - [数値型](https://github.com/B0elena/TIL/blob/main/Swift/%E6%95%B0%E5%80%A4%E5%9E%8B.md)
-- [構造体]()
+- [構造体](https://github.com/B0elena/TIL/blob/main/Swift/%E6%A7%8B%E9%80%A0%E4%BD%93.md)
 - [繰り返し]()
 - [複合代入演算子]()
 - [配列]()

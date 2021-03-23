@@ -70,7 +70,7 @@
 - [三項演算子](https://github.com/B0elena/TIL/blob/main/Swift/%E4%B8%89%E9%A0%85%E6%BC%94%E7%AE%97%E5%AD%90.md)
 - [基本](https://github.com/B0elena/TIL/blob/main/Swift/%E5%9F%BA%E6%9C%AC.md)
 - [基本まとめ](https://github.com/B0elena/TIL/blob/main/Swift/%E5%9F%BA%E6%9C%AC%E3%81%BE%E3%81%A8%E3%82%81.md)
-- [数値型]()
+- [数値型](https://github.com/B0elena/TIL/blob/main/Swift/%E6%95%B0%E5%80%A4%E5%9E%8B.md)
 - [構造体]()
 - [繰り返し]()
 - [複合代入演算子]()

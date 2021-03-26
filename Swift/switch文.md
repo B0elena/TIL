@@ -22,7 +22,7 @@ switch number {
 // if文だとこう書ける
 if number == 10 {
   print(10)
-} else if {
+} else if number == 30 {
   print(30)
 } else {
   print("それ以外")

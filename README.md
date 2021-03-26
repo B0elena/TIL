@@ -65,6 +65,8 @@
 - [PHP基本](https://github.com/B0elena/TIL/blob/main/PHP/%E5%9F%BA%E6%9C%AC.md)
 
 ### Swift
+- [guard](https://github.com/B0elena/TIL/blob/main/Swift/guard.md)
+- [switch]()
 - [オプショナル](https://github.com/B0elena/TIL/blob/main/Swift/%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%AB.md)
 - [コレクションとfor-in文](https://github.com/B0elena/TIL/blob/main/Swift/%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%A8for-in%E6%96%87.md)
 - [タプル](https://github.com/B0elena/TIL/blob/main/Swift/%E3%82%BF%E3%83%97%E3%83%AB.md)

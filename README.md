@@ -68,6 +68,7 @@
 - [guard](https://github.com/B0elena/TIL/blob/main/Swift/guard.md)
 - [switch文](https://github.com/B0elena/TIL/blob/main/Swift/switch%E6%96%87.md)
 - [オプショナル](https://github.com/B0elena/TIL/blob/main/Swift/%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%AB.md)
+- [クロージャー](https://github.com/B0elena/TIL/blob/main/Swift/%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC.md)
 - [コレクションとfor-in文](https://github.com/B0elena/TIL/blob/main/Swift/%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%A8for-in%E6%96%87.md)
 - [タプル](https://github.com/B0elena/TIL/blob/main/Swift/%E3%82%BF%E3%83%97%E3%83%AB.md)
 - [三項演算子](https://github.com/B0elena/TIL/blob/main/Swift/%E4%B8%89%E9%A0%85%E6%BC%94%E7%AE%97%E5%AD%90.md)

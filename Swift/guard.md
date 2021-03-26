@@ -16,5 +16,5 @@ func Drink () {
   }
   print("お酒が飲める")
 }
-Drink()
+Drink()  // -> お酒が飲めない
 ```

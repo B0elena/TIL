@@ -16,5 +16,27 @@ List {
 
 - 構造体の配列から要素を一つずつ取り出していく方法
 ``` swift
+ForEach(構造体の配列) { 変数 in
+  UI部品
+}
 
+struct Human {
+  let name: String
+}
+
+struct ContentView: View {
+  let humans = [
+    Human(name: "田中"),
+    Human(name: "鈴木"),
+    Human(name: "佐藤")
+  ]
+  
+  var body: some View {
+    List {
+      ForEach(humans) { human in
+        Text("\(human.name)さん、こんにちは！")  // 構造体の配列から要素を一つずつ取り出して表示する
+      }
+    }
+  }
+}
 ```

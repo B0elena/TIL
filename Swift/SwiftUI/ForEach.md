@@ -15,12 +15,14 @@ List {
 ```
 
 - 構造体の配列から要素を一つずつ取り出していく方法
+インスタンスを特定する為のIDを持たせるプロトコル（Identifableプロトコル）を適応させる必要がある
 ``` swift
 ForEach(構造体の配列) { 変数 in
   UI部品
 }
 
-struct Human {
+struct Human: Identifable {  // <- Identifableを適応
+  let id = UUID()  // UUIDは適当なidを作成する関数
   let name: String
 }
 

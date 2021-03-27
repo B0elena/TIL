@@ -67,8 +67,8 @@
 ### Swift
 - SwiftUI 
   - [@EnvironmentObject](https://github.com/B0elena/TIL/blob/main/Swift/SwiftUI/%40EnvironmentObject.md)
-  - [@]()
-  - [@State]()
+  - [@ObservedObject](https://github.com/B0elena/TIL/blob/main/Swift/SwiftUI/%40ObservedObject.md)
+  - [@State](https://github.com/B0elena/TIL/blob/main/Swift/SwiftUI/%40State.md)
   - [Buttton](https://github.com/B0elena/TIL/blob/main/Swift/SwiftUI/Button.md)
   - [ForEach](https://github.com/B0elena/TIL/blob/main/Swift/SwiftUI/ForEach.md)
   - [List](https://github.com/B0elena/TIL/blob/main/Swift/SwiftUI/List.md)

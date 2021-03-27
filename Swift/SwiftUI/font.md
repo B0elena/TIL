@@ -6,6 +6,7 @@ Text("文字列")
   
 Text("Hello")
   .font(.largeTitle)
+  
 //  フォントサイズ（上から順に大きい）
 largeTitle
 title

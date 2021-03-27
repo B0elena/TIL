@@ -17,10 +17,10 @@ class クラス名: ObservedObject {
 
 #### 例
 ``` swift
-// UserDateという名前のファイル
+// UserDateという名前のファイルに
 import swiftUI
 
-class UserDate: bservedObject {
+class UserData: bservedObject {
   @Published var name: String
   @Published var age: Int
   
@@ -28,5 +28,14 @@ class UserDate: bservedObject {
     self.name = name
     self.age = age
   }
+}
+```
+``` swift
+// ContentViewファイルに
+import swiftUI
+
+struct ContentView: View {
+  @ObservedObject var userData = UserData(name: "鈴木", age: 20)
+  
 }
 ```

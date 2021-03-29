@@ -20,7 +20,7 @@ class クラス名: ObservedObject {
 // UserDateという名前のファイルに
 import swiftUI
 
-class UserData: bservedObject {
+class UserData: ObservedObject {
   @Published var name: String
   @Published var age: Int
   

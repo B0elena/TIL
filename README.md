@@ -46,7 +46,6 @@
 - [フォーム作成](https://github.com/B0elena/TIL/blob/main/HTML/%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E4%BD%9C%E6%88%90.md)
 
 ### JavaScript
-- [js基本](https://github.com/B0elena/TIL/blob/main/JavaScript/js%E5%9F%BA%E6%9C%AC.md)
 
 ### Kotlin
 - [Kotlin基本まとめ](https://github.com/B0elena/TIL/blob/main/Kotlin/Kotlin%E5%9F%BA%E6%9C%AC%E3%81%BE%E3%81%A8%E3%82%81.md)
